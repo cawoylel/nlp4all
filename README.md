@@ -20,7 +20,7 @@ Below is a checklist of tutorials currently available and those that are in the 
 
 - [x] **ASR Tutorial**: Fine-tuning an Automatic Speech Recognition (ASR) model for **Seereer language** (**Currently Available!**)..
 
-**Get Started:**
+## Get Started
 
 Explore the available tutorials and code to begin your journey in building AI solutions for your African language.
 
