@@ -1,4 +1,6 @@
-# Cawoylel NLP4ALL tutorials ![logo_cawoylel](https://github.com/cawoylel/nlp4all/assets/48530173/e80d2ed4-30b0-451f-b535-e8affe04e410)
+<h1 align="center">Welcome to NLP4ALL tutorials</h1>
+
+![logo_cawoylel](https://github.com/cawoylel/nlp4all/assets/48530173/e80d2ed4-30b0-451f-b535-e8affe04e410)
 
 
 # Who are we ?
