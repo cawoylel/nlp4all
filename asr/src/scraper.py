@@ -9,16 +9,22 @@ class BibleScraper(Spider):
     name: str
     output_folder: str
     start_urls: List[str]
+    language: str
+    code: str
     splitter: SentSplitter
 
     def __init__(self,
                  output_folder: str,
                  start_urls: List[str],
+                 language: str,
+                 code: str,
                  splitter: SentSplitter,
                  *args, **kwargs):
         super(BibleScraper, self).__init__(*args, **kwargs)
         self.output_folder = output_folder
         self.start_urls = start_urls
+        self.language = language
+        self.code = code
         self.splitter = splitter
 
     def download_audio(self, audio_src, output_file):
@@ -39,8 +45,9 @@ class BibleScraper(Spider):
         title = response.css("h1::text")
         title = title.get()
         book, chapter, code = response.url.split("/")[-1].split(".")[-3:]
+        language = self.language
 
-        output_folder = Path(f"{self.output_folder}/raw/")
+        output_folder = Path(f"{self.output_folder}/raw/{language}")
         output_folder.mkdir(exist_ok=True, parents=True)
         output_filename = output_folder / f"{book}_{chapter}_{code}"
 
@@ -75,5 +82,7 @@ if __name__ == "__main__":
                   name="SeereerBible",
                   output_folder="SeereerBible",
                   start_urls=["https://www.bible.com/bible/3751/GEN.1.SRR23"],
+                  language="Sereer-Sine",
+                  code="SRR23",
                   splitter=SentSplitter())
     process.start()
