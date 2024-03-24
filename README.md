@@ -1,6 +1,7 @@
-# Cawoylel NLP4ALL tutorials
+# Cawoylel NLP4ALL tutorials ![logo_cawoylel](https://github.com/cawoylel/nlp4all/assets/48530173/e80d2ed4-30b0-451f-b535-e8affe04e410)
 
-## Who are we ?
+
+# Who are we ?
 Welcome to our latest adventure at **Cawoylel**! If you’ve been following us, you know we hold a visionary perspective that embraces the powerful role of technology in **preserving and promoting linguistic and cultural diversity**. 
 
 We started this AI journey with **Fula** language. Our mission is twofold:
@@ -10,7 +11,7 @@ We started this AI journey with **Fula** language. Our mission is twofold:
 2. **Community Empowerment**: To democratize technology development by fostering an inclusive, open-source, and participatory approach. We believe in *open-source*, *collaborative approaches* are key to progress and to democratizing Artificial Intelligence (AI) solutions for african languages. By sharing our knowledge, we can collectively advance the use of African languages in the digital age.
 
 
-## About This Repository
+# About This Repository
 
 While our primary focus is the Fula language, in this **NLP4ALL** repository, we openly share our journey and the methodologies behind building these technologies. We provide **step-by-step guides**, **tutorials**, and **code snippets**, allowing others to replicate our efforts with the Fula language or adapt our work. Our goal is to offer **readily usable templates** that other communities can leverage to develop similar technologies for their languages. 
 
@@ -32,7 +33,7 @@ Explore the available tutorials and code to begin your journey in building AI so
 * The checkbox (✅) indicates currently available tutorials. 
 * This checklist can be expanded as more tutorials are added to the repository.
   
-## Join the Movement:
+# Join the Movement:
 
 We invite you to contribute to this project! Share your experiences, ask questions, and help us build a thriving NLP ecosystem for all African languages.
 
