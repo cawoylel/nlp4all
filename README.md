@@ -19,7 +19,9 @@ While our primary focus is the Fula language, in this **NLP4ALL** repository, we
 Below is a checklist of tutorials currently available and those that are in the pipeline:
 
 - [x] **ASR Tutorial**: Fine-tuning an Automatic Speech Recognition (ASR) model for **Seereer language** (**Currently Available!**)..
+- [ ] **MT data extraction and alignment from PDF documents**: A Practical Guide to Extracting and Aligning Translation Data for languages with limited online ressources
 
+  
 ## Get Started
 
 Explore the available tutorials and code to begin your journey in building AI solutions for your African language.
