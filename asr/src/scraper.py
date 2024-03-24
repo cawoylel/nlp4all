@@ -6,12 +6,12 @@ from scrapy.crawler import CrawlerProcess
 from icu_tokenizer import SentSplitter
 
 class BibleScraper(Spider):
-    name: str
     output_folder: str
     start_urls: List[str]
     splitter: SentSplitter
 
     def __init__(self,
+                 name: str,
                  output_folder: str,
                  start_urls: List[str],
                  splitter: SentSplitter,
@@ -19,7 +19,7 @@ class BibleScraper(Spider):
         super(BibleScraper, self).__init__(*args, **kwargs)
         self.output_folder = output_folder
         self.start_urls = start_urls
-        self.name = BibleScraper.name
+        self.name = name
         self.splitter = splitter
 
     def download_audio(self, audio_src, output_file):
