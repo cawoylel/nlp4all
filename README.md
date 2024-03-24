@@ -20,6 +20,7 @@ Below is a checklist of tutorials currently available and those that are in the 
 
 - [x] **ASR Tutorial**: Fine-tuning an Automatic Speech Recognition (ASR) model for **Seereer language** (**Currently Available!**)..
 - [ ] **MT data extraction and alignment from PDF documents**: A Practical Guide to Extracting and Aligning Translation Data for languages with limited online ressources
+- [ ] **Audio Data Collection**: Collect, process, prepare and segment audio data from youtube for **Audio Pretraining** tasks
 
   
 ## Get Started
