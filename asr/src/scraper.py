@@ -40,7 +40,7 @@ class BibleScraper(Spider):
         title = title.get()
         book, chapter, code = response.url.split("/")[-1].split(".")[-3:]
 
-        output_folder = Path(f"{self.output_folder}/raw/{BibleScraper.name}")
+        output_folder = Path(f"{self.output_folder}/raw/{self.name}")
         output_folder.mkdir(exist_ok=True, parents=True)
         output_filename = output_folder / f"{book}_{chapter}_{code}"
 
@@ -75,7 +75,5 @@ if __name__ == "__main__":
                   name="SeereerBible",
                   output_folder="SeereerBible",
                   start_urls=["https://www.bible.com/bible/3751/GEN.1.SRR23"],
-                  language="Sereer-Sine",
-                  code="SRR23",
                   splitter=SentSplitter())
     process.start()
