@@ -12,15 +12,15 @@ While at [Cawoylel](https://cawoylel.com/) our primary focus is the Fula languag
 Below is a checklist of tutorials currently available and those that are in the pipeline:
 
 1. Speech Processing
-  - [x] [**Speech-to-Text**](https://colab.research.google.com/github/cawoylel/nlp4all/blob/main/asr/src/asr_tutorial.ipynb#scrollTo=ZHqkn2_OCz4Y): Training an Automatic Speech Recognition (ASR) model when you don't have the annotated data: The **Seereer language** as a case study.
-  - [ ] **Text-to-Speech**: Training a Speech Synthesis model
-  - [ ] **Audio Data Collection**: Collect, process, prepare and segment audio data from youtube for **Audio Pretraining** tasks
-  - [ ] **Self-supervised Speech Pretraining**
+    - [x] [**Speech-to-Text**](https://colab.research.google.com/github/cawoylel/nlp4all/blob/main/asr/src/asr_tutorial.ipynb#scrollTo=ZHqkn2_OCz4Y): Training an Automatic Speech Recognition (ASR) model when you don't have the annotated data: The **Seereer language** as a case study.
+    - [ ] **Text-to-Speech**: Training a Speech Synthesis model
+    - [ ] **Audio Data Collection**: Collect, process, prepare and segment audio data from youtube for **Audio Pretraining** tasks
+    - [ ] **Self-supervised Speech Pretraining**
 
 2. Machine Translation
-  - [ ] **Machine Translation data extraction and alignment from PDF documents**: A Practical Guide to Extracting and Aligning Translation Data for languages with limited online ressources
-  - [ ] **Enhance your Machine Translation model by leveraging monolingual data and backtranslation**
-  - [ ] **Large Language Models for machine translation in data scarcity scenario**
+    - [ ] **Machine Translation data extraction and alignment from PDF documents**: A Practical Guide to Extracting and Aligning Translation Data for languages with limited online ressources
+    - [ ] **Enhance your Machine Translation model by leveraging monolingual data and backtranslation**
+    - [ ] **Large Language Models for machine translation in data scarcity scenario**
 
 3. Language Modelling
   ...
