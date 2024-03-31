@@ -1,7 +1,7 @@
 <h1 align="center">NLP4ALL Tutorials</h1>
 
 <p align="center">
-  <img src="asr/illustrations/cawoylel.png", width=200" alt="transformer" width=400 class="center">
+  <img src="asr/illustrations/cawoylel.png", width=200" alt="transformer" width=600 class="center">
 </p>
 
 # Who are we ?
