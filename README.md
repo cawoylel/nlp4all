@@ -1,7 +1,8 @@
 <h1 align="center">NLP4ALL Tutorials</h1>
 
-<img src="https://github.com/cawoylel/nlp4all/assets/48530173/e80d2ed4-30b0-451f-b535-e8affe04e410" alt="logo" width="200"/>
-
+<p align="center">
+  <img src="https://github.com/cawoylel/nlp4all/assets/48530173/e80d2ed4-30b0-451f-b535-e8affe04e410?raw=true:, width=200" alt="transformer" width=400 class="center">
+</p>
 
 # Who are we ?
 Welcome to our latest adventure at **Cawoylel**! If you’ve been following us, you know we hold a visionary perspective that embraces the powerful role of technology in **preserving and promoting linguistic and cultural diversity**. 
