@@ -4,32 +4,31 @@
   <img src="asr/illustrations/cawoylel.png", width=200" alt="transformer" width=600 class="center">
 </p>
 
-# Who are we ?
-Welcome to our latest adventure at **Cawoylel**! If you’ve been following us, you know we hold a visionary perspective that embraces the powerful role of technology in **preserving and promoting linguistic and cultural diversity**. 
 
-We started this AI journey with **Fula** language. Our mission is twofold:
-
-1. **Technological Innovation**: To design and develop state-of-the-art tools tailored for Fula community, addressing the urgent challenges posed by the digital revolution. Our toolkit includes advanced **translation systems**, **speech recognition technologies**, **voice assistants**, etc., crafted with the needs of the Fula community.
-
-2. **Community Empowerment**: To democratize technology development by fostering an inclusive, open-source, and participatory approach. We believe in *open-source*, *collaborative approaches* are key to progress and to democratizing Artificial Intelligence (AI) solutions for african languages. By sharing our knowledge, we can collectively advance the use of African languages in the digital age.
-
-
-# About This Repository
-
-While our primary focus is the Fula language, in this **NLP4ALL** repository, we openly share our journey and the methodologies behind building these technologies. We provide **step-by-step guides**, **tutorials**, and **code snippets**, allowing others to replicate our efforts with the Fula language or adapt our work. Our goal is to offer **readily usable templates** that other communities can leverage to develop similar technologies for their languages. 
+While at [Cawoylel](https://cawoylel.com/) our primary focus is the Fula language, in this **NLP4ALL** repository, we openly share our journey and the methodologies behind building these technologies. We provide **step-by-step guides**, **tutorials**, and **code snippets**, allowing others to replicate our efforts with the Fula language or adapt our work. Our goal is to offer **readily usable templates** that other communities can leverage to develop similar technologies for their languages. 
 
 ## Tutorial Checklist
 
 Below is a checklist of tutorials currently available and those that are in the pipeline:
 
-- [x] **ASR Tutorial**: Fine-tuning an Automatic Speech Recognition (ASR) model for **Seereer language** (**Currently Available!**)..
-- [ ] **MT data extraction and alignment from PDF documents**: A Practical Guide to Extracting and Aligning Translation Data for languages with limited online ressources
-- [ ] **Audio Data Collection**: Collect, process, prepare and segment audio data from youtube for **Audio Pretraining** tasks
+1. Speech Processing
+  - [x] [**Speech-to-Text**](https://colab.research.google.com/github/cawoylel/nlp4all/blob/main/asr/src/asr_tutorial.ipynb#scrollTo=ZHqkn2_OCz4Y): Training an Automatic Speech Recognition (ASR) model when you don't have the annotated data: The **Seereer language** as a case study.
+  - [ ] **Text-to-Speech**: Training a Speech Synthesis model
+  - [ ] **Audio Data Collection**: Collect, process, prepare and segment audio data from youtube for **Audio Pretraining** tasks
+  - [ ] **Self-supervised Speech Pretraining**
+
+2. Machine Translation
+  - [ ] **Machine Translation data extraction and alignment from PDF documents**: A Practical Guide to Extracting and Aligning Translation Data for languages with limited online ressources
+  - [ ] **Enhance your Machine Translation model by leveraging monolingual data and backtranslation**
+  - [ ] **Large Language Models for machine translation in data scarcity scenario**
+
+3. Language Modelling
+  ...
 
   
 ## Get Started
 
-Explore the available tutorials and code to begin your journey in building AI solutions for your African language.
+Explore the available tutorials and code to begin your journey in building AI solutions for your language.
 
 **Note:**
 
@@ -38,7 +37,7 @@ Explore the available tutorials and code to begin your journey in building AI so
   
 # Join the Movement:
 
-We invite you to contribute to this project! Share your experiences, ask questions, and help us build a thriving NLP ecosystem for all African languages.
+We invite you to contribute to this project! Share your experiences, ask questions, and help us build a thriving NLP ecosystem for all languages.
 
 Stay Connected:
 
