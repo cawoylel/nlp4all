@@ -23,7 +23,7 @@ Below is a checklist of tutorials currently available and those that are in the 
     - [ ] **Large Language Models for machine translation in data scarcity scenario**
 
 3. Language Modelling
-    ...
+    - [ ] ...
 
   
 ## Get Started
