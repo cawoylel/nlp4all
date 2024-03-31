@@ -1,7 +1,7 @@
 <h1 align="center">NLP4ALL Tutorials</h1>
 
 <p align="center">
-  <img src="https://github.com/cawoylel/nlp4all/assets/48530173/e80d2ed4-30b0-451f-b535-e8affe04e410?raw=true:, width=200" alt="transformer" width=400 class="center">
+  <img src="asr/illustrations/cawoylel.png", width=200" alt="transformer" width=400 class="center">
 </p>
 
 # Who are we ?
