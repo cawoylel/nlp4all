@@ -44,3 +44,9 @@ def evaluate(processor, dataset, data_collator, language, task, metric, model):
 
     print(f"{wer=} and {normalized_wer=}")
     print(eval_metrics)
+    return {
+        "unnormalized_predictions": predictions,
+        "unnormalized_references": references,
+        "normalized_predictions": normalized_predictions,
+        "normalized_references": normalized_references
+    }
