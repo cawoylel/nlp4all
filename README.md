@@ -12,6 +12,7 @@ While at [Cawoylel](https://cawoylel.com/) our primary focus is the Fula languag
 Below is a checklist of tutorials currently available and those that are in the pipeline:
 
 1. Speech Processing
+    - [x] [**Speech-to-Text**]([https://colab.research.google.com/github/cawoylel/nlp4all/blob/main/asr/src/asr_tutorial.ipynb#scrollTo=ZHqkn2_OCz4Y](https://github.com/cawoylel/nlp4all/blob/main/asr/src/KallaamaSpeechProcessing.ipynb)): Process and create audio dataset from [Kallaama](https://www.openslr.org/151/) speech corpora.
     - [x] [**Speech-to-Text**](https://colab.research.google.com/github/cawoylel/nlp4all/blob/main/asr/src/asr_tutorial.ipynb#scrollTo=ZHqkn2_OCz4Y): Training an Automatic Speech Recognition (ASR) model when you don't have the annotated data: The **Seereer language** as a case study.
     - [ ] **Text-to-Speech**: Training a Speech Synthesis model
     - [ ] **Audio Data Collection**: Collect, process, prepare and segment audio data from youtube for **Audio Pretraining** tasks
