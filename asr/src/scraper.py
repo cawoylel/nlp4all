@@ -1,4 +1,5 @@
 from typing import List
+import re
 from pathlib import Path
 import requests
 from scrapy import Spider, Request
@@ -19,6 +20,7 @@ class BibleScraper(Spider):
                  language: str,
                  code: str,
                  splitter: SentSplitter,
+                 filter_nums: bool = False,
                  *args, **kwargs):
         super(BibleScraper, self).__init__(*args, **kwargs)
         self.output_folder = output_folder
@@ -26,6 +28,7 @@ class BibleScraper(Spider):
         self.language = language
         self.code = code
         self.splitter = splitter
+        self.filter_nums = filter_nums
 
     def download_audio(self, audio_src, output_file):
         data = requests.get(audio_src)
@@ -71,6 +74,8 @@ class BibleScraper(Spider):
                 if not text:
                     continue
                 for sent in self.splitter.split(text):
+                    if self.filter_nums and bool(re.search(r'\d', sent)):
+                        continue
                     output_file.write(f"{sent}\n")
         next_page = response.css("div.\[pointer-events\:all\]:nth-child(2) > a:nth-child(1)")
         if next_page:
